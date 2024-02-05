@@ -1,0 +1,35 @@
+========== HEADER ==========
+.nav__logo
+Clothing
+
+.nav__link
+Home - Men - Women - Bags - Community
+
+
+========== HOME ==========
+.home__title
+Clothing
+
+.home__product .home__price
+Core Hoddie
+$125
+
+Stylish Backpack
+$115
+
+Premiere Pants
+$125
+
+Black Shorts
+$75
+
+Cool T-Shirt
+$65
+
+.home__languages
+ES | EN
+
+.home__social-link
+https://www.facebook.com/
+https://www.instagram.com/
+https://twitter.com/

@@ -1,0 +1,106 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Smooch&display=swap");
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+  --header-height: 3.5rem;
+
+  /*========== Colors ==========*/
+  /*Color mode HSL(hue, saturation, lightness)*/
+  --first-color: hsl(34, 52%, 54%);
+  --first-color-light: hsl(34, 52%, 64%);
+  --first-color-lighten: hsl(34, 52%, 68%);
+  --black-color: hsl(0, 0%, 4%);
+
+  /*========== Font and typography ==========*/
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --body-font: "Montserrat", sans-serif;
+  --second-font: "Smooch", cursive;
+  --biggest-font-size: 6rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: .938rem;
+  --small-font-size: .813rem;
+
+  /*========== Font weight ==========*/
+  --font-regular: 400;
+  --font-semi-bold: 600;
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+
+/* Responsive typography */
+@media screen and (min-width: 1150px) {
+  :root {
+    --biggest-font-size: 17rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .875rem;
+  }
+}
+
+/*=============== BASE ===============*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  background-color: var(--first-color);
+  color: var(--black-color);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/*=============== REUSABLE CSS CLASSES ===============*/
+.container {
+  max-width: 1120px;
+  margin-inline: 1.5rem;
+}
+
+.main {
+  overflow: hidden;
+}
+
+/*=============== HEADER & NAV ===============*/
+
+
+/* Navigation for mobile devices */
+
+
+/* Show menu */
+
+
+/* Background header */
+
+
+/*=============== HOME ===============*/
+
+
+/* Swiper class */
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+
+
+/* For medium devices */
+
+
+/* For large devices */
